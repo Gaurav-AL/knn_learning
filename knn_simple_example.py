@@ -11,6 +11,8 @@ Math Comp Result
 
 So, simply we will find euclidean distance of Query with every Dataset (Math,Comp) and print the result of k nearest value
 Here 1,1,2 will be the nearest euclidean distance with Query(math=6,comp=8) and result will be pass
+
+One can simply try this Datatset with different value of k and then can find out why Cross-validation is a required.
 '''
 from itertools import count
 import math
