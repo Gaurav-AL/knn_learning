@@ -24,6 +24,8 @@ k = 6, fail
 
 Since we know that for math =6 and comp = 8 ,  belongs to pass class but after exceeding value of k more than 3
 it is giving wrong result, so we can say that for k <= 3 is right for this dataset.
+
+This approach is also called LOOCV(leave One out Cross Validation).
 '''
 from itertools import count
 import math
